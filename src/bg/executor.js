@@ -497,7 +497,7 @@ export class Executor {
             this.backgroundChildTabCount = 0;
         }
 
-        let index = 0;
+        let index;
         switch (this.data.tabPosition) {
             case "left":
                 index = currentTabIndex;
